@@ -1,7 +1,7 @@
+import { useUser } from '@/context/user-context';
 import { useRouter } from 'expo-router';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 import { ThemedText } from './themed-text';
-import { useUser } from '@/context/user-context';
 
 export function LogoutButton() {
   const router = useRouter();
