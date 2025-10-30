@@ -1,0 +1,8 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Google Maps API keys (if stored in separate files)
+google-services.json
+GoogleService-Info.plist
